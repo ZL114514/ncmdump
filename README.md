@@ -32,6 +32,12 @@ ncmdump -h
 ncmdump -v
 ```
 
+使用 `-m` 或 `--remove` 参数来删除正确处理后的文件
+
+```shell
+ncmdump -m
+```
+
 处理单个或多个文件
 
 ```shell
