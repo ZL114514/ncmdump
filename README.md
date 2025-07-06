@@ -32,12 +32,6 @@ ncmdump -h
 ncmdump -v
 ```
 
-使用 `-m` 或 `--remove` 参数来删除正确处理后的文件
-
-```shell
-ncmdump -m
-```
-
 处理单个或多个文件
 
 ```shell
@@ -54,6 +48,12 @@ ncmdump -d source_dir
 
 ```shell
 ncmdump -d source_dir -r
+```
+
+使用 `-m` 参数来删除源文件若正确处理
+
+```shell
+ncmdump -m
 ```
 
 使用 `-o` 参数来指定输出目录，将转换后的文件输出到指定目录，该参数支持与 `-r` 参数一起使用

@@ -1,7 +1,6 @@
 #include "libncmdump.h"
 #include <filesystem>
-#include <lua.h>
-#include <lualib.h>
+#include <lua.hpp>
 
 namespace fs = std::filesystem;
 

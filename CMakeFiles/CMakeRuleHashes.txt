@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+a89ec493169ef43176001e3868a14cf7 taglib/CMakeFiles/docs
+6843080e396b7c63677d86f7dae304c2 taglib/CMakeFiles/uninstall

@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++  -stdlib=libc++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/ncmdump_exec.dir/link.d CMakeFiles/ncmdump_exec.dir/src/ncmcrypt.cpp.o CMakeFiles/ncmdump_exec.dir/src/utils/aes.cpp.o CMakeFiles/ncmdump_exec.dir/src/utils/cJSON.cpp.o CMakeFiles/ncmdump_exec.dir/src/main.cpp.o -o ncmdump  taglib/taglib/libtag.a

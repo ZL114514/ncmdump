@@ -10,7 +10,7 @@ set(WITH_ZLIB OFF)
 set(BUILD_TESTING OFF)
 add_subdirectory(taglib)
 
-find_package(Lua 5.3)
+find_package(Lua 5.3 REQUIRED)
 if(NOT LUA_FOUND)
     set(LUA_INCLUDE_DIR "/data/data/com.termux/files/usr/include/lua5.3")
     set(LUA_LIBRARIES "/data/data/com.termux/files/usr/lib/liblua5.3.so")

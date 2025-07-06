@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -fPIC  -stdlib=libc++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/ncmdump.dir/link.d -shared -Wl,-soname,libncmdump.so -o libncmdump.so CMakeFiles/ncmdump.dir/src/lib/libncmdump.cpp.o
